@@ -41,6 +41,6 @@ A simple and interactive Currency Converter app built using **Python** and **Str
 
 3. Run the app
   ```bash
-  streamlit run currency_converter.py
+   streamlit run currency_converter.py
 
 
