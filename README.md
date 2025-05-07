@@ -1,87 +1,55 @@
-# Currency Converter (Streamlit App)
+# 💱 Currency Converter
 
-A simple and interactive Currency Converter app built using **Python** and **Streamlit**. It uses the [Frankfurter API](https://www.frankfurter.app/) to fetch real-time exchange rates and convert any amount between supported currencies.
+A simple and interactive Currency Converter app built using **Python** and **Streamlit**.  
+It uses the [Frankfurter API](https://www.frankfurter.app/) to fetch real-time exchange rates.
 
-Streamlit
-Python
+---
 
-A simple web-based currency converter application built with Streamlit that uses the Frankfurter API for real-time exchange rates.
-Features
+## 📸 Screenshot
 
-    Convert between different currencies in real-time
+![App Screenshot](screenshot.png)
 
-    Simple and intuitive user interface
+> Make sure `screenshot.png` is in the root folder of your repo, or update the filename if it's different.
 
-    Error handling for invalid inputs
+---
 
-    Mobile-friendly responsive design
+## 🚀 Features
 
-Requirements
+- 🔁 Real-time currency conversion  
+- ✅ Beginner-friendly Streamlit UI  
+- 🌍 No API key required  
+- 🐍 Uses Python and REST API
 
-    Python 3.6+
+---
 
-    Streamlit
+## 🛠 Tech Stack
 
-    Requests library
+- Python  
+- Streamlit  
+- Requests  
+- Frankfurter API
 
-Installation
+---
 
-    Clone this repository:
-    bash
+## 📦 Installation
 
-git clone https://github.com/yourusername/currency-converter.git
-cd currency-converter
+1. **Clone the repository**
 
-Install the required packages:
-bash
+   ```bash
+   git clone https://github.com/Suryansh-101/currency-converter.git
+   cd currency-converter
 
-    pip install streamlit requests
+    Install dependencies
 
-Usage
+pip install streamlit requests
 
-    Run the application:
-    bash
+Run the app
 
-    streamlit run app.py
+    streamlit run currency_converter.py
 
-    In the web interface:
+🌍 Supported Currencies
 
-        Enter the amount you want to convert
+See the full list: Frankfurter API Currencies
+📄 License
 
-        Enter the source currency code (e.g., USD)
-
-        Enter the target currency code (e.g., EUR)
-
-        Click the "Convert" button
-
-    View the conversion result displayed below the button
-
-Supported Currencies
-
-This application supports all major world currencies. Some examples include:
-
-    USD (US Dollar)
-
-    EUR (Euro)
-
-    GBP (British Pound)
-
-    JPY (Japanese Yen)
-
-    INR (Indian Rupee)
-
-    And many more...
-
-API Used
-
-This application uses the free Frankfurter API for currency exchange rates.
-Screenshot
-
-Currency Converter Screenshot
-Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+Licensed under the MIT License.
