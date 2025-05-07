@@ -1,4 +1,4 @@
-# 💱 Currency Converter
+# Currency Converter
 
 A simple and interactive Currency Converter app built using **Python** and **Streamlit**.  
 It uses the [Frankfurter API](https://www.frankfurter.app/) to fetch real-time exchange rates.
@@ -8,8 +8,6 @@ It uses the [Frankfurter API](https://www.frankfurter.app/) to fetch real-time e
 ## 📸 Screenshot
 
 ![App Screenshot](screenshot.png)
-
-> Make sure `screenshot.png` is in the root folder of your repo, or update the filename if it's different.
 
 ---
 
@@ -35,21 +33,12 @@ It uses the [Frankfurter API](https://www.frankfurter.app/) to fetch real-time e
 
 1. **Clone the repository**
 
+2. **Install Dependencies**
    ```bash
-   git clone https://github.com/Suryansh-101/currency-converter.git
-   cd currency-converter
+   pip install streamlit requests
 
-    Install dependencies
+3. **Run the App**
+   ```bash
+   streamlit run currency_converter.py
 
-pip install streamlit requests
 
-Run the app
-
-    streamlit run currency_converter.py
-
-🌍 Supported Currencies
-
-See the full list: Frankfurter API Currencies
-📄 License
-
-Licensed under the MIT License.
