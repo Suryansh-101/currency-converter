@@ -35,12 +35,8 @@ A simple and interactive Currency Converter app built using **Python** and **Str
    git clone https://github.com/Suryansh-101/currency-converter.git
    cd currency-converter
 
-2. **Install dependencies**
-
-'''bash
+# 2. Install dependencies
 pip install streamlit requests
 
-3. **Run the app**
-
-'''bash
+# 3. Run the app
 streamlit run currency_converter.py
